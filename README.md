@@ -7,8 +7,8 @@ Primero setear el path al template:<br>
 <code>
 template.setPath(path);
 </code>
-template: String
-target: String (ejemplo #div)
+template:
+target: ejemplo #div
 data: Json
 
 <code>
