@@ -16,6 +16,8 @@ Usuario: <strong><%name%></strong><br />
 Link : <a href="usuario/<%id%>"><%name%</a><br />
 Id : <%id%><br /><br />
 </code>
+
+Para recorrer un objeto:
 <code>
 $.each(objeto, function(i, value){	
 			template.each(template, target, data, callback()});
