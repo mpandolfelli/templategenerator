@@ -17,8 +17,6 @@ $.each(objeto, function(i, value){
 </code>
 
 Para aplicar animacion:<br>
-animation_type: fade, slide <br>
-speed: number (default 1000)<br>
 <code>
 template.setAnimation(animation_tpye, speed);
 </code>
