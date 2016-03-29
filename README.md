@@ -1,5 +1,5 @@
 <h2>Templates JS</h2>
-
+<hr>
 1- Seteamos el path a los templates 
 <code>
 template.setPath(path);
@@ -12,9 +12,9 @@ template.load(template, target, data, callback()});
 
 Ejemplo de uso:
 <code>
-<div>Usuario: <strong><%name%></strong></div>
-<div>Link : <a href="usuario/<%id%>"><%name%</a></div>
-<div>Id : <%id%><br /></div>
+Usuario: <strong><%name%></strong>
+Link : <a href="usuario/<%id%>"><%name%</a>
+Id : <%id%><br />
 </code>
 
 Para recorrer un objeto:
