@@ -12,9 +12,9 @@ template.load(template, target, data, callback()});
 
 Ejemplo de uso:
 <code>
-Usuario: <strong><%name%></strong><br />
-Link : <a href="usuario/<%id%>"><%name%</a><br />
-Id : <%id%><br /><br />
+<div>Usuario: <strong><%name%></strong></div>
+<div>Link : <a href="usuario/<%id%>"><%name%</a></div>
+<div>Id : <%id%><br /></div>
 </code>
 
 Para recorrer un objeto:
